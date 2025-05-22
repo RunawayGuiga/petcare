@@ -75,3 +75,46 @@ h1, h2 {
     width: 100%;
     z-index: -10;
 }
+
+/* Config - Seção CLÍNICA */
+
+#clinica {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 80px 24px 80px;
+    position: relative;
+}
+
+.paragrafo-clinica{ 
+    line-height: 150%;
+    margin-bottom: 64px;
+    /* gap: 200px; */
+}
+
+.paragrafo-clinica ul {
+    margin-bottom: 50px;
+}
+
+.botao-clinica {
+    background-color: #ff9a6c;
+    border-radius: 8px;
+    color: #f0f0f0;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+.botao-transparente-clinica {
+    background-color: transparent;
+    color: #ff725e;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    z-index: -11;
+}
