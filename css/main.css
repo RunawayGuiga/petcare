@@ -118,3 +118,26 @@ h1, h2 {
     width: 100%;
     z-index: -11;
 }
+
+/* Config - Seção FARMÁCIA */
+
+#farmacia {
+    align-items: center;
+    gap: 32px;
+    padding: 80px 80px 24px 80px;
+    position: relative;
+}
+
+#farmacia-content {
+    text-align: center;
+}
+
+#farmacia-content img{
+    margin: 80px;
+}
+
+.paragrafo-farmacia {
+    margin: 0% 250px;
+    line-height: 150%;
+    
+}
