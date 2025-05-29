@@ -190,3 +190,44 @@ h1, h2 {
     padding: 60px 24px 10px 24px;
 }
 
+/* Config - FOOTER */
+footer {
+    background-color: rgba(243, 128, 78, 0.25);
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer img .titulo-footer {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a {
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+.link {
+    color: #FF725E;
+    text-decoration: none;
+}
+
+.copyright {
+    background-color: #021022;
+    color: #F0F0F0;
+    position: relative;
+    padding: 24px;
+    text-align: center;
+}
